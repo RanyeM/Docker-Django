@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "aws_region": "us-east-1",
+        "django_settings": "mysite.settings",
+        "profile_name": "dev",
+        "project_name": "mysite",
+        "runtime": "python3.11",
+        "s3_bucket": "django-admin-s3",
+        "manage_roles": false, 
+        "role_name": "Django-admin-lambda",
+        "role_arn": "arn:aws:iam::104182495031:role/Django-admin-lambda"
+    }
+}
